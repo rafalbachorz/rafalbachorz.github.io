@@ -4,7 +4,7 @@ published: true
 mathjax: true
 ---
 
-The stationary Schroedinger equation in most generic form can be writte as:
+The stationary Schr&ouml;oedinger equation in most generic form can be writte as:
 
 $$ \hat{H}\Psi = E\Psi $$
 
