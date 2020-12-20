@@ -5,9 +5,9 @@ mathjax: true
 ---
 
 The stationary Schroedinger equation in most generic form can be writte as:
-$$
-\hat{H}\Psi = E\Psi,
-$$
+
+$$ \hat{H}\Psi = E\Psi $$
+
 where $\hat{H}$ is an operator called Hamiltonian.
 
 
