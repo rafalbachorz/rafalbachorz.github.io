@@ -4,7 +4,8 @@ published: true
 ---
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
-LaTeX piece: \\( a^2 = b^2 \\)
+
+LaTeX piece: $a^2 = b^2$ 
 
 [Link to another page](another-page).
 
