@@ -7,6 +7,21 @@ Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 LaTeX piece: $a^2 = b^2$ 
 
+More informally, we say that a function "*transform*" or "*maps*" or "*sends*" $\textit{x}$ onto $\textit{y}$, and for each "*argument*" $\textit{x}$ there is a unique value $\textit{y}$ that $\textit{f }$ "*assummes*" or "*takes*".
+
+We typically denote a relation or function or transformation or mapping from X onto Y as:
+
+$$
+\textit{f}: \textit{X} \rightarrow \textit{Y}
+$$
+
+or
+
+$$
+\textit{f}(\textit{x}) = \textit{y} 
+$$
+
+
 [Link to another page](another-page).
 
 There should be whitespace between paragraphs.
