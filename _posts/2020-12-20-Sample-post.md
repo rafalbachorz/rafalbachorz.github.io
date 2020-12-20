@@ -1,8 +1,15 @@
 ---
-title: The first post here
+title: The application of Machine Learning in Electronic Structure Theory
 published: true
 mathjax: true
 ---
+
+The stationary Schroedinger equation in most generic form can be writte as:
+$$
+\hat{H}\Psi = E\Psi,
+$$
+where $\hat{H}$ is an operator called Hamiltonian.
+
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
