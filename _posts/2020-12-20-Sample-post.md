@@ -4,11 +4,11 @@ published: true
 mathjax: true
 ---
 
-The stationary Schr&ouml;oedinger equation in most generic form can be writte as:
+The stationary Schr&ouml;oedinger equation in most generic form can be written as:
 
 $$ \hat{H}\Psi = E\Psi $$
 
-where $\hat{H}$ is an operator called Hamiltonian.
+where $\hat{H}$ is an operator called the Hamiltonian. It contains the complete information about the kinetic and potential energy of the system.
 
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
