@@ -7,3 +7,5 @@ layout: page
 [Github](https://github.com/rafalbachorz)
 
 [Twitter](https://twitter.com/RafalBachorz)
+
+[Gists](gist_pieces)
