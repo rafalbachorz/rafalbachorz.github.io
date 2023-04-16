@@ -17,5 +17,31 @@ Recently I have gone through the process of setting up the environment that allo
 * In principle it should be possible now to create new Maven project.
 
 ## Groovy in Eclipse
-* Again we need to choose *Help / Install New Software*, this time we need to provide the link to the appropriate Groovy-Eclipse plug-in release. To find it the best is to go the [Github of Groovy Development Tools](https://github.com/groovy/groovy-eclipse), and go to its [Wiki page](https://github.com/groovy/groovy-eclipse/wiki). In the bottom there is a table with the plug-in releases compatible with Eclipse versions. Take the appropriate link and paste is into the "Work with" field in Eclipse (see blow).
+* Again we need to choose *Help / Install New Software*, this time we need to provide the link to the appropriate Groovy-Eclipse plug-in release. To find it the best is to go the [Github of Groovy Development Tools](https://github.com/groovy/groovy-eclipse), and go to its [Wiki page](https://github.com/groovy/groovy-eclipse/wiki). In the bottom there is a table with the plug-in releases compatible with Eclipse versions. Take the appropriate link and paste is into the "Work with" field in Eclipse (see below).
 ![Installing Eclipse Groovy Development Tools](images\CDK-Eclipse-Groovy.png)
+
+# Creating the Groovy project and adding CDK dependencies
+To create the Groovy project with integrated CDK libraries we need to follow some steps.
+## Creating the Groovy project
+* Open Eclipse and create the Groovy project: *File / New / Other / Groovy / Groovy Project*, click Next. 
+* Type in Project Name and optionally set up the JDK / JRE environment.
+* Click Finish.
+
+## Turning into Maven project.
+To incorporate the CDK library via Maven it is convenient to turn the default Groovy project into the Maven Project. To do so, just right-hand-click on the Groovy project, then *Configure / Convert To Maven Project* (see below)
+![Converting the Groovy project into Maven project](images\CDK-Convert-To-Maven.PNG)
+This will create the pom.xml file and other artifacts related to the Maven project. 
+## Adding CDK dependency
+The last thing is adding the Maven dependency containing the CDK into this file. We need to add this piece of xml into pom.xml:
+```xml
+  <dependencies>
+   <dependency>
+    <artifactId>cdk-bundle</artifactId>
+    <groupId>org.openscience.cdk</groupId>
+    <version>2.8</version>
+  </dependency>
+ </dependencies>
+```
+Saving the pom.xml file should trigger the download of newly incorporated dependencies. 
+
+That's it. Now you are ready to go with Groovy scripts utilizing the CDK capabilities.
