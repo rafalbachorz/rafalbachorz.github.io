@@ -8,4 +8,6 @@ layout: page
 
 [Twitter](https://twitter.com/RafalBachorz)
 
-[Gistss](gists_pieces.md)
+[Gists](gists_pieces.md)
+
+[Notes](notes.md)
